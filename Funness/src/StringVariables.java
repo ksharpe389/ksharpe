@@ -8,8 +8,8 @@ public class StringVariables{
 	Scanner user_input = new Scanner( System.in);
 	
 
-	System.out.@println("Insert your name");
-	first_name = user_input,StringVariables;
+	System.out.@println("Insert your name"); //These are the ones causing trouble, it says it expects an identifier
+	first_name = user_input,StringVariables; //this one as well
 	
 	if (first_name == James) {
 		
